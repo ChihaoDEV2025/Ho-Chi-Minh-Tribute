@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ho Chi Minh Tribute</title>
+    <style>
+      /* Basic reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Design System - Vietnam theme colors */
+      :root {
+        --primary-red: #da251d;
+        --primary-yellow: #ffde00;
+        --text-dark: #2c3748;
+        --bg-light: #f8f9fa;
+        --bg-white: #ffffff;
+
+        /* Typography */
+        --font-base: system-ui, -apple-system, sans-serif;
+        --text-sm: 0.875rem;
+        --text-base: 1rem;
+        --text-lg: 1.125rem;
+        --text-xl: 1.25rem;
+        --text-2xl: 1.5rem;
+        --text-3xl: 1.875rem;
+
+        /* Spacing */
+        --space-2: 0.5rem;
+        --space-4: 1rem;
+        --space-6: 1.5rem;
+        --space-8: 2rem;
+        --space-12: 3rem;
+
+        /* Shadows */
+        --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: #f4f4f4;
+        max-width: 1000px;
+        margin: 0 auto;
+
+        /* color - background */
+        color: var(--text-dark);
+        background-color: var(--bg-light);
+      }
+
+      h1 {
+        font-size: var(--text-3xl);
+        color: var(--primary-red);
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: var(--text-2xl);
+        color: var(--primary-red);
+        margin-bottom: var(--space-4);
+      }
+
+      p {
+        margin-bottom: var(--space-4);
+        color: var(--text-dark);
+      }
+
+      header,
+      main,
+      section,
+      footer {
+        border: 2px dashed #ccc;
+        margin: 10px;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- B1: HTML structure -  -->
+    <!-- Create semantic HTML structure. The dashed borders help us see the layout-->
+    <header>
+      <h1>Ho Chi Minh Tribute</h1>
+      <p>Leader • Visionary • Father of Modern Vietnam</p>
+    </header>
+
+    <main>
+      <section class="hero">
+        <!-- Img -->
+        <img
+          src="https://via.placeholder.com/300x300/da251d/ffffff?text=Ho+Chi+Minh"
+          alt="President Ho Chi Minh portrait"
+          class="hero-image"
+        />
+
+        <!-- Hero content -->
+        <div class="hero-content">
+          <h2>About President Ho Chi Minh</h2>
+          <p>
+            Ho Chi Minh (born Nguyen Sinh Cung, known as Nguyen Tat Thanh in
+            school, and Nguyen Ai Quoc during his revolutionary activities) was
+            born on May 19, 1890, in Kim Lien village, Nam Dan district, Nghe An
+            province, and passed away on September 2, 1969, in Hanoi.
+          </p>
+          <p>
+            Ho Chi Minh was born into a patriotic scholarly family and grew up
+            in a region with heroic traditions of resistance against foreign
+            invaders.
+          </p>
+        </div>
+      </section>
+
+      <!-- Timeline Section -->
+      <section class="timeline-section">
+        <h2>Major Achievements</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="year">1920</div>
+            <p>
+              Influenced by the 1917 Russian October Revolution and Lenin's
+              thesis, Nguyen Ai Quoc participated in the 18th Congress of the
+              French Socialist Party, becoming one of the founding members of
+              the French Communist Party.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">1941</div>
+            <p>
+              Convened the 8th Plenum of the Party Central Committee,
+              establishing the Vietnam Independence League (Viet Minh) and
+              organizing armed liberation forces.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="year">1945</div>
+            <p>
+              On September 2, 1945, at Ba Dinh Square (Hanoi), Ho Chi Minh read
+              the "Declaration of Independence," proclaiming the establishment
+              of the Democratic Republic of Vietnam.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="year">1946</div>
+            <p>
+              The first National Assembly elected him as President of the
+              Democratic Republic of Vietnam.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2024 Created by OrianChi. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
