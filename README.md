@@ -10,10 +10,8 @@ This project is created to present the major achievements and biography of Presi
 
 ### Main sections
 
-* **Biography** — summary of early life, education, and political formation.
-* **Milestones** — timeline of important events and achievements.
-* **Portrait** — an image block with caption and brief description.
-* **References** — citations and further reading.
+- **Biography** — summary of early life, education, and political formation.
+- **Milestones** — timeline of important events and achievements.
 
 ---
 
@@ -21,26 +19,20 @@ This project is created to present the major achievements and biography of Presi
 
 This site is implemented with pure HTML and CSS. No JavaScript frameworks or server-side code are required. To view the site, open the `index.html` file in any modern browser.
 
-
-
 ## 3. Usage
 
 1. Clone or download the repository.
 2. Open `index.html` in a web browser (double-click or choose "Open with" → your browser).
 3. Navigate sections using the site navigation or the "View in Browser" link.
 
-
-
 ## 4. File structure (suggested)
 
 ```
 / (project root)
 │
+|─ outline         #show the steps to create
 ├─ index.html         # Main page
-├─ styles/
-│   └─ style.css      # All site styles
-├─ images/
-│   └─ portrait.jpg   # Portrait of Ho Chi Minh (ensure correct licensing)
+|─ style.css      # All site styles
 └─ README.md
 ```
 
@@ -48,9 +40,7 @@ This site is implemented with pure HTML and CSS. No JavaScript frameworks or ser
 
 ## 5. Accessibility and best practices
 
-* Use semantic HTML elements (`<header>`, `<main>`, `<section>`, `<figure>`, `<figcaption>`).
-* Provide `alt` attributes for all images (e.g. `alt="Portrait of Ho Chi Minh"`).
-* Maintain sufficient colour contrast for text and background.
-* Ensure the site is responsive by using relative units (%, em, rem) or media queries.
-
-
+- Use semantic HTML elements (`<header>`, `<main>`, `<section>`, `<figure>`, `<figcaption>`).
+- Provide `alt` attributes for all images (e.g. `alt="Portrait of Ho Chi Minh"`).
+- Maintain sufficient colour contrast for text and background.
+- Ensure the site is responsive by using relative units (%, em, rem) or media queries.
