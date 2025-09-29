@@ -21,9 +21,6 @@ This project is created to present the major achievements and biography of Presi
 
 This site is implemented with pure HTML and CSS. No JavaScript frameworks or server-side code are required. To view the site, open the `index.html` file in any modern browser.
 
-**Note about the "View in Browser" instruction:**
-If you want a visible call-to-action labelled **"View in Browser"** that is **bold** and displayed at **12pt or larger**, use the HTML/CSS example below.
-
 
 
 ## 3. Usage
