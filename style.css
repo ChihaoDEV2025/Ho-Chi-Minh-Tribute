@@ -100,6 +100,9 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-8) var(--space-4);
+  background-color: var(--primary-yellow);
+  border-radius: 12px;
+  margin-top: -40px; /* Overlap with header */
 }
 
 /*  Space of sections*/
@@ -123,6 +126,9 @@ section {
   width: 100%;
   border-radius: 50%;
   border: 4px solid var(--primary-red);
+  width: 250px; /* fixed width */
+  height: 250px; /* fixed height */
+  object-fit: cover;
 }
 
 .hero-content h2 {
@@ -132,11 +138,12 @@ section {
 /* Footer */
 footer {
   font-size: large;
-  background: var(--primary-red);
+  background: var(--bg-light);
   color: var(--bg-white);
   text-align: center;
   padding: var(--space-6);
   margin-top: var(--space-12);
+  border-radius: 12px;
 }
 
 footer p {
